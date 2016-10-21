@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yml_catalog date="2016-10-21 11:10">
+    <shop>
+        <name>ABC</name>
+        <company>ABC inc.</company>
+        <url>ABC.com</url>
+        <currencies>
+            <currency id="RUR" rate="80"/>
+            <currency id="RUR" rate="80"/>
+        </currencies>
+        <categories>
+            <category id="1234" parentId="1278">Телевизоры</category>
+            <category id="1244" parentId="3278">Медиа-плееры</category>
+        </categories>
+        <offers>
+            <offer id="1234" available="true" bid="1278" cbid="1278">
+                <delivery-options>
+                    <option cost="1000" days="1" order-before="15"/>
+                </delivery-options>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
